@@ -341,10 +341,33 @@ Dokumentasi penjelasan dalam bahasa Indonesia dibuat untuk mempermudah pemahaman
 
 ## 📝 Lisensi dan Disclaimer
 
-- Dokumen PDF asli adalah publikasi publik dari NIST (US Government)
-- Penjelasan dalam bahasa Indonesia dibuat untuk tujuan edukasi
-- Selalu rujuk ke dokumen NIST asli untuk compliance purposes
-- Tidak ada afiliasi resmi dengan NIST
+### Status Copyright NIST Publications
+
+Semua publikasi NIST adalah **karya pemerintah US Federal** dan masuk **Public Domain** sesuai dengan 17 U.S.C. §105:
+
+> *"NIST publications are available in the public domain and are not subject to copyright in the United States."*
+
+**Ini berarti:**
+- ✅ Bebas digunakan tanpa izin
+- ✅ Dapat dimodifikasi dan didistribusikan
+- ✅ Tidak ada biaya lisensi
+- ✅ Legal untuk tujuan komersial atau non-komersial
+
+### Disclaimer Repository Ini
+
+**⚠️ PENTING:** Repository ini adalah **sumber edukasi independen** dan **BUKAN official NIST resource**.
+
+- 📚 **Dokumen PDF:** Publikasi original NIST (public domain)
+- 📝 **Penjelasan & Quiz:** Dibuat untuk tujuan pembelajaran
+- 🎯 **Tujuan:** Memudahkan pemahaman konsep NIST dalam Bahasa Indonesia
+- ⚖️ **Compliance:** Selalu rujuk ke dokumen NIST asli untuk official compliance purposes
+- 🚫 **Tidak ada afiliasi:** Tidak terafiliasi, disponsori, atau diendorse oleh NIST
+
+### Referensi Legal
+
+- **17 U.S.C. §105** - US Copyright Law (Government Works)
+- **NIST Copyright Policy:** https://www.nist.gov/oism/copyrights
+- **NIST Publications Portal:** https://csrc.nist.gov/publications
 
 ---
 
