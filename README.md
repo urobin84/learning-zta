@@ -24,13 +24,17 @@ Repositori pembelajaran komprehensif tentang **Zero Trust Architecture** dan **D
 
 ## 📚 Daftar Isi
 
-- [Tentang Repositori Ini](#tentang-repositori-ini)
-- [Struktur Folder](#struktur-folder)
-- [Dokumen Sumber (PDF)](#dokumen-sumber-pdf)
-- [Penjelasan dalam Bahasa Indonesia](#penjelasan-dalam-bahasa-indonesia)
-- [Cara Menggunakan](#cara-menggunakan)
-- [Roadmap Pembelajaran](#roadmap-pembelajaran)
-- [Referensi dan Sumber](#referensi-dan-sumber)
+- [🎮 Interactive Quiz](#-interactive-quiz---test-your-knowledge)
+- [Tentang Repositori Ini](#-tentang-repositori-ini)
+- [Struktur Folder](#-struktur-folder)
+- [Dokumen Sumber (PDF)](#-dokumen-sumber-pdf)
+- [Penjelasan dalam Bahasa Indonesia](#-penjelasan-dalam-bahasa-indonesia)
+- [Cara Menggunakan](#-cara-menggunakan)
+- [Roadmap Pembelajaran](#-roadmap-pembelajaran)
+- [Referensi dan Sumber](#-referensi-dan-sumber)
+- [Mapping Dokumen ke Use Cases](#-mapping-dokumen-ke-use-cases)
+- [Lisensi dan Disclaimer](#-lisensi-dan-disclaimer)
+- [Feedback dan Kontribusi](#-feedback-dan-kontribusi)
 
 ---
 
