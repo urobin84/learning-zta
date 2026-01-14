@@ -21,14 +21,14 @@ Saya baru buat interactive quiz dengan 40+ pertanyaan dalam 3 level kesulitan:
 
 🎁 Bonus: Setiap jawaban ada penjelasan detail!
 
-👉 Take the quiz: [link-github-pages]/quiz.html
+👉 Take the quiz: https://urobin84.github.io/learning-zta/quiz.html
 
 Dare to try Expert mode? 
 Comment skor Anda! Let's see who gets perfect score! 🏆
 
 P.S: Quiz ini bagian dari repo lengkap learning ZTA dalam Bahasa Indonesia. 100% gratis!
 
-📚 Full repo: [link-repo-anda]
+📚 Full repo: https://github.com/urobin84/learning-zta
 
 #ZeroTrust #CyberSecurity #Quiz #Challenge #LearningInPublic #InfoSec #Indonesia
 ```
@@ -63,12 +63,12 @@ Setelah main, Anda akan paham:
 → CSF 2.0 governance
 → Dan masih banyak lagi!
 
-🎯 Try it now: [link-quiz]
+🎯 Try it now: https://urobin84.github.io/learning-zta/quiz.html
 
 Target: 90%+ untuk Expert badge! 🏆
 Comment hasil quiz Anda!
 
-Repository lengkap: [link-repo]
+Repository lengkap: https://github.com/urobin84/learning-zta
 
 #InteractiveLearning #ZeroTrust #CyberSecurity #EdTech #Gamification
 ```
@@ -100,11 +100,11 @@ Hasilnya: 40+ pertanyaan dalam quiz web app yang:
 From basics like "Apa itu ZTA?" 
 To advanced topics like "Supervised Remote Proofing"
 
-🎯 Test yourself: [link-quiz]
+🎯 Test yourself: https://urobin84.github.io/learning-zta/quiz.html
 
 Skor < 50%? No problem! 
 Pelajari dari repo lengkap (+ penjelasan Bahasa Indonesia)
-📚 [link-repo]
+📚 https://github.com/urobin84/learning-zta
 
 Skor > 90%? CONGRATS Expert! 🏆
 Tag saya dengan screenshot!
@@ -148,10 +148,10 @@ Perfect for:
 🔥 Expert: Score 90%+ (10% achieve this!)
 
 Think you can beat 90%?
-👉 [link-quiz]
+👉 https://urobin84.github.io/learning-zta/quiz.html
 
 Repository dengan materi lengkap:
-📚 [link-repo]
+📚 https://github.com/urobin84/learning-zta
 
 Let's make cybersecurity education accessible untuk semua! 🇮🇩
 
@@ -172,8 +172,8 @@ Test your cybersecurity knowledge:
 
 Topics: ZTA, IAL/AAL/FAL, CSF 2.0, MFA, Federation
 
-Play now: [link-quiz]
-Learn more: [link-repo]
+Play now: https://urobin84.github.io/learning-zta/quiz.html
+Learn more: https://github.com/urobin84/learning-zta
 
 Can you score 90%+? 🏆
 Comment your result!

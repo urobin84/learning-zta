@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,11 +52,15 @@
             padding: 40px;
         }
 
-        .start-screen, .quiz-screen, .result-screen {
+        .start-screen,
+        .quiz-screen,
+        .result-screen {
             display: none;
         }
 
-        .start-screen.active, .quiz-screen.active, .result-screen.active {
+        .start-screen.active,
+        .quiz-screen.active,
+        .result-screen.active {
             display: block;
         }
 
@@ -315,6 +320,7 @@
                 opacity: 0;
                 transform: translateY(-10px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -363,6 +369,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -395,7 +402,7 @@
                 </div>
                 <div style="text-align: center; margin-top: 40px;">
                     <p style="color: #666;">Ingin belajar lebih dalam?</p>
-                    <a href="https://github.com/yourusername/learning-zta" class="github-link" target="_blank">
+                    <a href="https://github.com/urobin84/learning-zta" class="github-link" target="_blank">
                         📚 Lihat Repository Lengkap di GitHub
                     </a>
                 </div>
@@ -406,7 +413,7 @@
                 <div class="progress-bar">
                     <div class="progress-fill" id="progressBar"></div>
                 </div>
-                
+
                 <div class="question-card">
                     <div class="question-number" id="questionNumber"></div>
                     <div class="question-text" id="questionText"></div>
@@ -431,7 +438,7 @@
                     </div>
                     <div class="result-message" id="resultMessage"></div>
                     <div class="result-feedback" id="resultFeedback"></div>
-                    
+
                     <div class="stats">
                         <div class="stat-card">
                             <div class="stat-value" id="correctAnswers">0</div>
@@ -449,7 +456,7 @@
 
                     <div style="margin-top: 30px;">
                         <button class="btn" onclick="restartQuiz()">Main Lagi</button>
-                        <a href="https://github.com/yourusername/learning-zta" class="github-link" target="_blank">
+                        <a href="https://github.com/urobin84/learning-zta" class="github-link" target="_blank">
                             📚 Pelajari Lebih Lanjut di GitHub
                         </a>
                     </div>
@@ -915,16 +922,16 @@
         function startQuiz(difficulty) {
             currentDifficulty = difficulty;
             questions = [...questionBank[difficulty]];
-            
+
             // Shuffle questions
             questions.sort(() => Math.random() - 0.5);
-            
+
             currentQuestionIndex = 0;
             score = 0;
-            
+
             document.querySelector('.start-screen').classList.remove('active');
             document.querySelector('.quiz-screen').classList.add('active');
-            
+
             loadQuestion();
         }
 
@@ -932,38 +939,38 @@
             const question = questions[currentQuestionIndex];
             selectedAnswer = null;
             answerSubmitted = false;
-            
-            document.getElementById('questionNumber').textContent = 
+
+            document.getElementById('questionNumber').textContent =
                 `Pertanyaan ${currentQuestionIndex + 1} dari ${questions.length}`;
             document.getElementById('questionText').textContent = question.question;
-            
+
             const optionsContainer = document.getElementById('optionsContainer');
             optionsContainer.innerHTML = '';
-            
+
             question.options.forEach((option, index) => {
                 const optionDiv = document.createElement('div');
                 optionDiv.className = 'option';
                 optionDiv.onclick = () => selectAnswer(index);
-                
+
                 optionDiv.innerHTML = `
                     <div class="option-label">${String.fromCharCode(65 + index)}</div>
                     <div class="option-text">${option}</div>
                 `;
-                
+
                 optionsContainer.appendChild(optionDiv);
             });
-            
+
             document.getElementById('explanation').classList.remove('show');
             document.getElementById('nextBtn').disabled = true;
-            
+
             updateProgress();
         }
 
         function selectAnswer(index) {
             if (answerSubmitted) return;
-            
+
             selectedAnswer = index;
-            
+
             const options = document.querySelectorAll('.option');
             options.forEach((opt, i) => {
                 opt.classList.remove('selected');
@@ -971,7 +978,7 @@
                     opt.classList.add('selected');
                 }
             });
-            
+
             document.getElementById('nextBtn').disabled = false;
         }
 
@@ -982,7 +989,7 @@
             } else {
                 // Move to next question
                 currentQuestionIndex++;
-                
+
                 if (currentQuestionIndex < questions.length) {
                     loadQuestion();
                 } else {
@@ -993,25 +1000,25 @@
 
         function submitAnswer() {
             if (selectedAnswer === null) return;
-            
+
             answerSubmitted = true;
             const question = questions[currentQuestionIndex];
             const options = document.querySelectorAll('.option');
-            
+
             options.forEach((opt, i) => {
                 opt.onclick = null; // Disable clicking
-                
+
                 if (i === question.correct) {
                     opt.classList.add('correct');
                 } else if (i === selectedAnswer) {
                     opt.classList.add('incorrect');
                 }
             });
-            
+
             if (selectedAnswer === question.correct) {
                 score++;
             }
-            
+
             // Show explanation
             const explanationDiv = document.getElementById('explanation');
             explanationDiv.innerHTML = `
@@ -1019,7 +1026,7 @@
                 <p>${question.explanation}</p>
             `;
             explanationDiv.classList.add('show');
-            
+
             // Change button text
             if (currentQuestionIndex < questions.length - 1) {
                 document.getElementById('nextBtn').textContent = 'Selanjutnya';
@@ -1036,18 +1043,18 @@
         function showResults() {
             document.querySelector('.quiz-screen').classList.remove('active');
             document.querySelector('.result-screen').classList.add('active');
-            
+
             const percentage = Math.round((score / questions.length) * 100);
-            
+
             document.getElementById('finalScore').textContent = score;
             document.getElementById('totalQuestions').textContent = `/${questions.length}`;
             document.getElementById('correctAnswers').textContent = score;
             document.getElementById('wrongAnswers').textContent = questions.length - score;
             document.getElementById('percentage').textContent = percentage + '%';
-            
+
             let message = '';
             let feedback = '';
-            
+
             if (percentage >= 90) {
                 message = '🏆 Luar Biasa!';
                 feedback = 'Anda menguasai Zero Trust Architecture! Expert level achieved! 🌟';
@@ -1064,7 +1071,7 @@
                 message = '📚 Terus Semangat!';
                 feedback = 'Jangan menyerah! Mulai dari level Pemula dan pelajari repo lengkap untuk meningkatkan pemahaman.';
             }
-            
+
             document.getElementById('resultMessage').textContent = message;
             document.getElementById('resultFeedback').textContent = feedback;
         }
@@ -1082,4 +1089,5 @@
         }
     </script>
 </body>
+
 </html>
