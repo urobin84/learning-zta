@@ -2,6 +2,26 @@
 
 Repositori pembelajaran komprehensif tentang **Zero Trust Architecture** dan **Digital Identity Guidelines** berdasarkan publikasi NIST (National Institute of Standards and Technology).
 
+## 🎮 Interactive Quiz - Test Your Knowledge!
+
+**NEW!** Uji pemahaman Anda dengan quiz interactive yang fun dan educational:
+
+👉 **[PLAY QUIZ NOW!](quiz.html)** 👈
+
+- 🌱 **Pemula:** 10 pertanyaan dasar
+- ⚡ **Menengah:** 15 pertanyaan untuk yang sudah paham konsep
+- 🔥 **Expert:** 20 pertanyaan hardcore challenge!
+
+✨ Features:
+- Real-time scoring dengan visual feedback
+- Penjelasan detail untuk setiap jawaban
+- Mobile-friendly & zero installation needed
+- Perfect untuk self-assessment!
+
+**Challenge:** Bisa score 90%+ di Expert mode? 🏆
+
+---
+
 ## 📚 Daftar Isi
 
 - [Tentang Repositori Ini](#tentang-repositori-ini)
