@@ -6,7 +6,7 @@ Repositori pembelajaran komprehensif tentang **Zero Trust Architecture** dan **D
 
 **NEW!** Uji pemahaman Anda dengan quiz interactive yang fun dan educational:
 
-👉 **[PLAY QUIZ NOW!](quiz.html)** 👈
+👉 **[PLAY QUIZ NOW!](https://urobin84.github.io/learning-zta/quiz.html)** 👈
 
 - 🌱 **Pemula:** 10 pertanyaan dasar
 - ⚡ **Menengah:** 15 pertanyaan untuk yang sudah paham konsep
